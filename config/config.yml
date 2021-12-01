@@ -1,0 +1,46 @@
+# config
+
+# model
+## support SegNet_AlexNet, SegNet_VGG, SegNet_ResNet18, SegNet_ResNet34, SegNet_ResNet50, SegNet_ResNet101, SegNet_ResNet152
+## FPN_ResNet18, FPN_ResNet50, FPN_ResNet101, FPN_ResNet34, FPN_ResNet152
+## FCN_AlexNet, FCN_VGG, FCN_ResNet18, FCN_ResNet50, FCN_ResNet101, FCN_ResNet34, FCN_ResNet152
+## UNet_VGG
+model_name: FCN # choose from FPN, FCN, SegNet, UNet
+backbone: AlexNet # choose from AlexNet, VGG, ResNet18, ResNet50, ResNet101
+
+# dataset path
+data_root: samples/data/
+boundary: one_point # choose from rm_wall, one_point, all_walls
+
+# train/val set
+train_list: train/train_val.txt
+
+# test set
+## choose the test set: test_0.txt, test_1.txt, test_2.txt, test_3.txt,test_4.txt,test_5.txt,test_6.txt
+test_list: test/test_0.txt
+
+# metric for testing
+## choose from "mae_global", "mae_boundary", "mae_component",
+## "value_and_pos_error_of_maximum_temperature", "max_tem_spearmanr", "global_image_spearmanr"
+metric: mae_boundary
+
+# dataset format: mat or h5
+data_format: mat
+batch_size: 2
+max_epochs: 50
+lr: 0.001
+
+# number of gpus to use
+gpus: 1
+val_check_interval: 1.0
+
+# num_workers in dataloader
+num_workers: 4
+
+# preprocessing of data
+## input
+mean_layout: 0
+std_layout: 1000
+## output
+mean_heat: 298
+std_heat: 50
