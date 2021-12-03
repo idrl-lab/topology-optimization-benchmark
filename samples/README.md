@@ -39,14 +39,10 @@
 
 * 组件布局及其热传导拓扑优化设计结果示例
 
-  layout-1.png
+  ![layout](https://s3.bmp.ovh/imgs/2021/12/b827685515b568f1.png)
 
-  top-1.png
+  ![top](https://s3.bmp.ovh/imgs/2021/12/5249eadd04cdf4af.png)
 
-## 数据库详情
-
-* train/test共包含30000组随机采样方式生成的训练样本 ，示例如下
-
-    
+ 
 
 ## 其他
