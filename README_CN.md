@@ -1,4 +1,4 @@
-# supervised_layout_benchmark
+# 拓扑优化研究基准
 
 ## 介绍
 
@@ -25,7 +25,7 @@
 
 > 运行训练、测试以及热布局作图统一通过main.py入口.
 
-  - 数据放在服务器`\\192.168.2.1\mnt/share1/layout_data/v1.0/data/`（详见[Readme](https://git.idrl.site/gongzhiqiang/supervised_layout_benchmark/blob/master/samples/README.md))，运行时请修改程序配置文件`config/config_complex_net.yml`中`data_root`输入变量为挂载服务器上数据地址.
+  - 数据放在[百度网盘](https://pan.baidu.com/s/11LAVPSVq9fBQouIz0Aonkg) `提取码: u8fv`（详见[Readme](https://git.idrl.site/gongzhiqiang/supervised_layout_benchmark/blob/master/samples/README.md))，运行时请修改程序配置文件`config/config_complex_net.yml`中`data_root`输入变量为挂载服务器上数据地址.
 
   - 训练和测试
 
