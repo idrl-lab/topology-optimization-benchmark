@@ -25,7 +25,7 @@ This project aims to establish a deep neural network (DNN) surrogate modeling be
 
 The training, test and visualization can be accessed by running `main.py` file.
 
-  - The data is available at the server address: `\\192.168.2.1\mnt/share1/layout_data/v1.0/data/`（refer to [Readme for samples](https://git.idrl.site/gongzhiqiang/supervised_layout_benchmark/blob/master/samples/README.md)). Remember to modify variable `data_root` in the configuration file `config/config_complex_net.yml` to the right server address.
+  - The data is available at the server address: `\\192.168.2.1\mnt/share1/layout_data/v1.0/data/`（refer to [Readme for samples](https://github.com/idrl-lab/topology-optimization-benchmark/blob/master/samples/README.md)). Remember to modify variable `data_root` in the configuration file `config/config_complex_net.yml` to the right server address.
 
   - Training
 
