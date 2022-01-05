@@ -60,8 +60,7 @@
     - `train.py`训练程序
     - `plot.py`预测可视化程序
     - `data`文件夹存放数据预处理和读取程序
-    - `metrics`文件夹存放热布局度量函数，详见[Readme](https://git.idrl.site/gongzhiqiang/supervised_layout_benchmark/blob/master/src/metric/README.md)
-    - `models`热布局深度代理模型所用深度模型
+    - `models`深度代理模型
     - `utils`工具类文件
 
 ## 其他

@@ -76,8 +76,7 @@ The training, test and visualization can be accessed by running `main.py` file.
   - `train.py`: training files.
   - `plot.py`: prediction visualization files.
   - `data`: data preprocessing and data loading files.
-  - `metric`: evaluation metric file. (For details, see [Readme for metric](https://git.idrl.site/gongzhiqiang/supervised_layout_benchmark/blob/master/src/metric/README.md))
-  - `models`: DNN surrogate models for the HSL-TFP task.
+  - `models`: DNN surrogate models.
   - `utils`: useful tool function files.
 
 ## One tiny example
